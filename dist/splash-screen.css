@@ -1,0 +1,115 @@
+body.page-loading {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.splash-screen {
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(18, 20, 13) !important;
+    transition: all 1s;
+    visibility: hidden;
+}
+
+.page-loading .splash-screen {
+    opacity: 1;
+    visibility: visible;
+}
+
+.anime-swipe {
+    position: absolute;
+    width: 4%;
+    opacity: 0;
+    bottom: 0;
+}
+
+.anime-swipe-1 {
+    animation: swipe 6000ms linear infinite;
+    right: -10%;
+}
+
+.anime-swipe-2 {
+    animation: swipe 6000ms linear 200ms infinite;
+    right: 15%;
+}
+
+.anime-swipe-3 {
+    animation: swipe 6000ms linear 320ms infinite;
+    right: 40%;
+}
+
+.anime-swipe-4 {
+    animation: swipe 6000ms linear 1000ms infinite;
+    right: 60%;
+}
+
+.anime-swipe-5 {
+    animation: swipe 6000ms linear 3320ms infinite;
+    right: 80%;
+}
+
+.anime-swipe-6 {
+    animation: swipe 6000ms linear 420ms infinite;
+    right: 90%;
+}
+
+
+.anime-swipe-7 {
+    animation: swipe 6000ms linear 550ms infinite;
+    right: -13%;
+}
+
+.anime-swipe-8 {
+    animation: swipe 6000ms linear 1550ms infinite;
+    right: 25%;
+}
+
+.anime-swipe-9 {
+    animation: swipe 6000ms linear 7020ms infinite;
+    right: 36%;
+}
+
+.anime-swipe-10 {
+    animation: swipe 6000ms linear 2000ms infinite;
+    right: 5%;
+}
+
+.anime-swipe-11 {
+    animation: swipe 6000ms linear 3320ms infinite;
+    right: 88%;
+}
+
+.anime-swipe-12 {
+    animation: swipe 6000ms linear 520ms infinite;
+    right: 95%;
+}
+
+@keyframes swipe {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        bottom: 100%;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .anime-swipe {
+        width: 4%;
+    }
+}

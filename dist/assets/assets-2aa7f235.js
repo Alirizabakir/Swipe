@@ -1,0 +1,1 @@
+import{H as n,U as r}from"./index-048e5a22.js";const d=s=>{const t=s.substring(s.lastIndexOf("."),s.length),e=n().mode=="dark"?`${s.substring(0,s.lastIndexOf("."))}-dark`:s.substring(0,s.lastIndexOf("."));return`./media/illustrations/${r.value}/${e}${t}`},g=s=>"./"+s;export{d as a,g};
