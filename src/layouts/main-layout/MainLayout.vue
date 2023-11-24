@@ -25,18 +25,18 @@
             style='z-index: 100'>
             <div class='d-flex align-items-end mb-4 col-12 justify-content-lg-start justify-content-center'
                  style='height: 70px'>
-              <p class='m-0  fw-bolder display-0 text-nowrap font-tamil fw-bold text-gray-900'>Time to Social</p>
-              <img class='col-5 col-md-4  col-xxl-4 pb-1 pb-md-2 pb-lg-2' src='/public/media/svg/shapes/blast.png' alt=''>
+              <p class='m-0 fw-bolder display-3 text-nowrap font-tamil fw-bold text-gray-900'>Time to Social</p>
+              <img class='col-5 col-sm-4 col-md-3 col-xl-2 pb-1 pb-sm-1 pb-md-2 pb-lg-2' src='/public/media/svg/shapes/blast.png' alt=''>
             </div>
-            <p class='font-tamil d-none d-xl-block display-6 fw-semibold ps-4 text-dark opacity-50 mb-10'
+            <p class='font-tamil d-none d-xl-block fs-2 fw-semibold text-dark opacity-50 mb-10'
                style='letter-spacing: 5px'>Swipe is a Socialfi project that will exist on the Blast</p>
-            <p class='font-tamil d-none d-md-block d-xl-none fs-2 fw-semibold ps-4 text-dark opacity-50 mb-10'
+            <p class='font-tamil d-none d-sm-block d-xl-none fs-2 fw-semibold text-dark opacity-50 mb-10'
                style='letter-spacing: 2px'>Swipe is a Socialfi project that will exist on the Blast</p>
-            <p class='font-tamil d-block d-md-none text-dark opacity-50 text-center mb-8'>Swipe is a Socialfi project
+            <p class='font-tamil d-block d-sm-none text-dark opacity-50 text-center mb-8'>Swipe is a Socialfi project
               that
               will exist on the Blast</p>
             <div
-              class='border border-warning rounded-pill overflow-hidden d-flex align-items-center col-12 col-md-6 ms-0 ms-md-4'>
+              class='border border-warning rounded-pill overflow-hidden d-flex align-items-center col-12 col-md-6'>
               <label for='email' class='flex-grow-1 h-100'>
                 <input id='email' type='email' placeholder='Email'
                        class='form-control border-0 fs-2 text-warning px-10 bg-gradient h-100 d-block'>
